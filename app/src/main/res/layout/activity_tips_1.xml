@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidtips.Tips_1">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:textSize="20sp"
+                android:textColor="@color/colorBackground"
+                android:text="With your device locked and in hand, the fastest, most convenient way to spark your torch is with the Power Button Flashlight/Torch app. As long as it's installed, all you need to do is press the power button on your phone three times in rapid succession to activate the flashlight.\n\nIf your power button isn't the most convenient button to press, or if you're worried about wearing it out too fast, then a good fallback option is to use your volume keys. With the Torchie app, you can press both volume keys simultaneously to quickly enable the flashlight.\n\nFor those of you who don't want to create any additional wear and tear on your hardware buttons, there are other options. For instance, with the Shake Flashlight app, you can simply shake your device to turn on the LED light."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

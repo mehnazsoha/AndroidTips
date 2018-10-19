@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidtips.Tips_5">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:textSize="20sp"
+                android:textColor="@color/colorBackground"
+                android:text="A lock screen is a computer user interface element used by various operating systems. They regulate immediate access to a device by requiring that the user perform a certain action in order to receive access, such as entering a password, using a certain button combination, or performing a certain gesture using a device's touchscreen. While most lock functions on PC operating systems only utilize a login screen, lock screens on mobile devices often provide more functionality beyond unlocking the phone: such as notifications for emails and text messages, a date and time display, or shortcuts to certain applications."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.androidtips.Tips_2">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:textSize="20sp"
+                android:textColor="@color/colorBackground"
+                android:text="Red and green OLED films have longer lifespans compared to blue OLED films. This variation results in colour shifts as a particular pixel fades faster than the other pixels. AMOLED displays are prone to screen burn-in, which leaves a permanent imprint of overused colours represented by overused images.\n\nManufacturers have developed in-cell touch panels, integrating the production of capacitive sensor arrays in the AMOLED module fabrication process. In-cell sensor AMOLED fabricators include AU Optronics and Samsung. Samsung has marketed its version of this technology as Super AMOLED. Researchers at DuPont used computational fluid dynamics (CFD) software to optimize coating processes for a new solution-coated AMOLED display technology that is competitive in cost and performance with existing chemical vapor deposition (CVD) technology. Using custom modeling and analytic approaches, Samsung has developed short and long-range film-thickness control and uniformity that is commercially viable at large glass sizes."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
